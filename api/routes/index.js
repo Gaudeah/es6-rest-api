@@ -19,7 +19,7 @@ router.get('/list', function(req, res) {
         }
         files.forEach(file => {
             if (fs.statSync(path + file).isDirectory())
-                routes.push(`/api/${file}`);
+                routes.push(`/api/${file}`)
         })
       res.json({ message: 'Try to explore these routes !', routes: routes })
     })

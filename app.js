@@ -10,4 +10,4 @@ app.use(bodyParser.json())
 app.use('/api', apiRouter)
 
 app.listen(config.service.port)
-console.log(`${config.service.motd} ${config.service.host}:${config.service.port}`);
+console.log(`${config.service.motd} ${config.service.host}:${config.service.port}`)
