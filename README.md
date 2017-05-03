@@ -1,2 +1,2 @@
-# es6-rest-api
-Simple and fresh ES6 REST API Written in JS, using new Async/Await protocol
+# es7-async-restapi
+Simple ES7 Async/Await REST API Written in JS
